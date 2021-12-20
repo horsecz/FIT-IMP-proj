@@ -1,3 +1,5 @@
+DEKODER MORSEOVY ABECEDY
+
 Prerekvizity: (doporuceni: nastaven a spusten virtualni stroj Win XP ze stranek FITKitu, viz dokumentace)
 
 a. 	QDevKit
