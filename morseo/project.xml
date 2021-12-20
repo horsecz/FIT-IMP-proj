@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="morseo">
+
+    <!--  Project description -->
+    <name>Dekoder morseovy abecedy </name>
+    <author>Dominik Horky</author>
+    <authoremail>xhorky32@stud.fit.vutbr.cz</authoremail>
+    <revision>20211213</revision>
+    <description>Aplikace pomoci tlacitka '0' dekoduje morseovu abecedu.</description>
+ 
+    <!--  MCU part -->
+    <mcu>
+        <include>mcu/libs/lcd/package.xml</include>
+	<include>mcu/libs/keyboard/package.xml</include>
+        <file>main.c</file>
+    </mcu>
+
+    <!-- FPGA part -->
+    <fpga use="apps/demo/keyboard_lcd/project.xml" />
+</project>
